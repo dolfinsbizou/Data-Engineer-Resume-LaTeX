@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty Seconds Resume/CV
-% LaTeX Template
+% Guillaume JORANDON's resume
+% Based on Twenty Seconds Resume/CV LaTeX Template
 % Version 1.0 (14/7/16)
 %
 % Original author:
@@ -22,26 +22,30 @@
 \newcommand\skills{ 
 ~
 	\smartdiagram[bubble diagram]{
-        \textbf{Data}\\\textbf{Engineering},
-        \textbf{Full Stack}\\\textbf{Web Dev},
-        \textbf{~~~~~OOP~~~~~~},
-        \textbf{Mobile}\\\textbf{Dev},
-        \textbf{Machine}\\\textbf{Learning},
-        \textbf{Test}\\\textbf{~~Automation~~},
-        \textbf{Statistical}\\\textbf{Analysis}
+        \textbf{Génie}\\\textbf{Informatique},
+        \textbf{~~Fouille de~~}\\\textbf{données},
+        \textbf{Développement}\\\textbf{logiciel},
+        \textbf{~~~~~~Maths~~~~~~},
+        \textbf{~~~~~Sciences~~~~~}\\\textbf{cognitives},
+        \textbf{~~~~Admin~~~~}\\\textbf{système}
     }
 }
 
-% Programming skill bars
-\programming{{C $\textbullet$ C++  $\textbullet$ R / 3}, {Java $\textbullet$ SQL $\textbullet$ \large \LaTeX / 3.5}, {HTML5 $\textbullet$ JS $\textbullet$ Python / 5}}
-
-% Projects text
-\projects{
-\textbf{DecAR} - An augmented reality interior decoration app for Android \\
-        \textbf{CIS*6320} - An implementation of the Bicubic interpolation algorithm in C++
-        \textbf{CIS*6650} - A comparative statistical study of SVM kernels, and number of hidden layers in ANN, on 5 UCI datasets
-        \textbf{CIS*6660} - A data linkage project to integrate Canada's WWI casualties and 1901 Canadian census using an SVM
-        \textbf{CIS*6650} - A statistical study of spurious correlations, such as correlating beer production with election outcome
+% Skills
+\programming{{Bash $\textbullet$ R $\textbullet$ JS / 3.5}, {Java $\textbullet$ PHP $\textbullet$ Python / 5}, {C $\textbullet$ C++  $\textbullet$ Python / 6}} 
+\computerskills{
+\begin{itemize}
+    \item Bureautique : Microsoft Office, LibreOffice
+    \item Standards : HTML5, CSS3, XML, JSON, \textbf{SQL}
+    \item Outils : \LaTeX, nginx, \textbf{git}, Docker, Vim, \textbf{Jenkins}
+    \item Frameworks : SFML, \textbf{Django}
+\end{itemize}
+}
+\personalskills{
+\begin{itemize}
+    \item Curiosité, autonomie, esprit d'équipe
+    \item \includegraphics[scale=0.04]{img/trophy.png} \textbf{Vainqueur} avec l'IUT d'Amiens de l'édition 2016 des 24h des IUT Info.
+\end{itemize}
 }
 
 %----------------------------------------------------------------------------------------
@@ -49,15 +53,15 @@
 %----------------------------------------------------------------------------------------
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-\cvname{HARSH GADGIL} % Your name
-\cvjobtitle{ Data Engineer } % Job
+\cvname{GUILLAUME\\JORANDON} % Your name
+\cvjobtitle{ Étudiant ingénieur } % Job
 % title/career
 
-\cvlinkedin{/in/hsgadgil}
-\cvgithub{opensorceror}
-\cvnumberphone{(647) 221 7999} % Phone number
-\cvsite{hgadgil.com} % Personal website
-\cvmail{harsh.gadgil@gmail.com} % Email address
+\cvlinkedin{}
+\cvgithub{dolfinsbizou}
+\cvnumberphone{(+33)6 71 81 28 13} % Phone number
+\cvsite{portfolio.intensifi.es} % Personal website
+\cvmail{guillaume.jorandon@etu.utc.fr} % Email address
 
 %----------------------------------------------------------------------------------------
 
@@ -66,108 +70,117 @@
 \makeprofile % Print the sidebar
 
 %----------------------------------------------------------------------------------------
-%	 EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem
-    	{2015 - 2017}
-        {}
-        {MSc., Computer Science \textnormal{(GPA: 3.7/4.0)}}
-        {\href{http://www.uoguelph.ca/}{University of Guelph, Canada}}
-        {}
-        {}
-	\twentyitem
-    	{2009 - 2013}
-		{}
-        {BEng., Computer Engineering \textnormal{(GPA: 4.0/4.0)}}
-        {\href{http://www.unipune.ac.in/}{University of Pune, India}}
-        {}
-        {}
-	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
-\end{twenty}
-
-\section{Research}
-\begin{twenty}
-	\twentyitem
-    	{2015 - 2017}
-		{}
-        {MSc. Candidate, Graduate Research Assistant}
-        {\href{http://www.uoguelph.ca/}{University of Guelph}}
-        {}
-        {
-       	\textbf{Thesis}: Data Integration from Multiple Historical Sources to Study Canadian Casualties of WWI
-        {\begin{itemize}
-        \item Proposed a scalable stepwise deterministic method to reliably integrate datasets without labeled data. The method performs comparably with a method that incorporates a Support Vector Machine
-        \item Constructed a rich longitudinal dataset to enable comphrehensive time-series analyses about WWI Canadian society and military
-        \item \textbf{Tools}: R, Python, scikit-learn, BeautifulSoup, pandas, matplotlib \vspace{2mm}
-		\end{itemize}}
-        }
-\end{twenty}
-
-\section{Publications}
-L. Antonie, H. Gadgil, G. Grewal, and K. Inwood, “Historical Data Integration - A Study of WWI Canadian Soldiers,” in 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW), pp. 186-193, IEEE, 2016. \vspace{2mm}
-
-%----------------------------------------------------------------------------------------
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Expérience}
 
 \begin{twenty} % Environment for a list with descriptions
-\twentyitem
-    	{April 2017 -}
-		{Present}
-        {Data Engineer}
-        {\href{http://www.bell.ca/}{Bell}}
+    \twentyitem
+    	{Sept. 2017 -}
+		{Févr. 2018}
+        {Stage ingénieur TN09 UTC}
+        {\href{http://irfu.cea.fr/}{CEA - IRFU, Saclay, France}}
         {}
-        {\begin{itemize}
-        \item Currently involved in building a realtime data ingestion pipeline on a Kafka cluster using Spark Streaming, to detect SMS spammers on Bell's network in realtime
-        \end{itemize}}
-        \\
+        {Mise en œuvre d'une plateforme d'intégration continue pour un logiciel spatial dans le cadre du projet de satellite franco-chinois SVOM.}
+    \\
+    \twentyitem
+    	{Août 2017}
+		{}
+        {Job d'été}
+        {\href{https://ca-paris.com/}{Crédit Agricole Île-de-France, Saint Denis, France}}
+        {}
+        {Accueil et orientation de la clientèle en agence.}
+    \\
 	\twentyitem
-    	{Sep 2015 -}
-		{May 2016}
-        {Co-founder \& Full Stack Developer}
-        {\href{http://www.localxchange.ca/}{LocalXChange Inc.}}
+    	{Juin 2016 -}
+		{Août 2016}
+        {Stage de DUT}
+        {\href{http://lti-picardie.fr/}{Laboratoire des Technologies Innovantes, Amiens, France}}
         {}
-        {
-        {\begin{itemize}
-        \item In a team of 2, raised \$8,000 in funding from The Hub incubator at the University of Guelph, to develop a prototype hyperlocal content platform, aimed at delivering local news and events from community organizations to local users in realtime (i.e., hyperlocal)
-        \item In a team of 3, built hybrid mobile \& web apps with Ionic, Angular.js and MongoDB, surpassing 1,000 users within a month since launch
-        \item Met with city officials, including the Mayor of Guelph, and university officials to discuss marketing \& business strategies for the platform 
-    \end{itemize}}
-        }
+        {Analyse et étude algorithmique en vue d'apporter une preuve de concept.\\\textit{Machine learning}, \textbf{analyse de données}, intelligence artificielle.}
     \\   
     \twentyitem
-   		{Sep 2015 -}
-		{Dec 2016}
-        {Graduate Teaching Assistant}
-        {\href{http://www.uoguelph.ca}{University of Guelph}}
+   		{Août 2015}
         {}
-        {
-        {\begin{itemize}
-        \item TA for CIS*2430 (OOP), CIS*4150 (Software Reliability \& Testing) and CIS*3530 (Database Systems \& Concepts) courses
-    \end{itemize}}
-        }
+        {Job d'été}
+        {\href{https://www.restaurants.mcdonalds.fr/mcdonalds-gassin}{McDonald's, La Foux, France}}
+        {}
+        {Équipier polyvalent de restauration.}
      \\
      \twentyitem
-   		{Dec 2013 -}
-		{Apr 2015}
-        {Test Automation Engineer}
-        {\href{http://www.synechron.com/}{Synechron}}
+   		{Juill. 2015}
+		{}
+        {Stage technique TN05 UTC}
+        {\href{https://www.naval-group.com/fr/}{DCNS ASM, Saint Tropez, France}}
         {}
-        {
-        \begin{itemize}
-        \item Developed a \textit{Keyword Driven} and \textit{Behavior Driven} test automation framework for \href{https://www.microsoft.com/en-ca/dynamics/crm.aspx}{Microsoft Dynamics CRM}. Wrote an efficient recursive function to search multi-level frames, reducing development time by approximately two weeks. Won SPOT award {\includegraphics[scale=0.05]{img/trophy.png}}
-        
-        \textit{My work opened up a new position in the organization, enabling it to earn additional revenue of \$3,500 per month (estimated)}
-        \item Demonstrated by proof of concept that rewriting a test automation framework for \href{https://www.microsoft.com/en-ca/dynamics/erp-ax-overview.aspx}{Microsoft Dynamics AX}, using an open source library (White) instead of a proprietary one (Coded UI), would enable the team to save \$4,000 annually by downgrading the prevailing edition of Microsoft Visual Studio from \textit{Premium} to \textit{Professional}
-    \end{itemize}
-    	}
+        {Mise à jour et classement d'un stock de composants électroniques au sein du département Énergie de la BU ASM, usine de torpilles de Naval Group (anciennement DCNS).}
         
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+    	{2016 - 2019}
+        {}
+        {Diplôme d'ingénieur}
+        {\href{https://www.utc.fr/}{Université de Technologie de Compiègne, France}}
+        {}
+        {Génie Informatique (Intelligence artificielle, architecture matérielle, analyse de données).\\Mineur en philosophie des techniques et sciences cognitives.}
+    \\
+	\twentyitem
+    	{2015 - 2016}
+        {}
+        {DUT Informatique}
+        {\href{http://www.iut-amiens.fr/}{IUT d'Amiens, France}}
+        {}
+        {DUT Info en Année Spéciale.\\Gestion de projet, développement logiciel, compétences techniques en informatique.}
+    \\
+	\twentyitem
+    	{2014 - 2015}
+        {}
+        {Tronc Commun}
+        {\href{https://www.utc.fr/}{Université de Technologie de Compiègne, France}}
+        {}
+        {Prépa intégrée en école d'ingénieur.}
+    \\
+	\twentyitem
+    	{2011 - 2014}
+		{}
+        {Baccalauréat S SVT}
+        {\href{http://www.lyc-du-golfe-de-saint-tropez.ac-nice.fr/}{Lycée du Golfe de Saint Tropez, France}}
+        {}
+        {Spécialité Informatique et Sciences du Numériques, mention Italien Européen.}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 HOBBIES
+%----------------------------------------------------------------------------------------
+
+\section{Hobbies}
+\begin{twenty}
+	\twentyitem
+    	{}
+		{}
+        {Musique}
+        {}
+        {}
+        {15 ans de pratique de la \textbf{guitare}, apprentissage du \textbf{piano}.}
+    \\
+    \twentyitem
+    	{}
+		{}
+        {Associatif}
+        {}
+        {}
+        {Président P18 de \textit{Picasoft}, association travaillant à sensibiliser le milieu ingénieur aux problématiques du logiciel libre et du respect des libertés fondamentales en ligne.}
 \end{twenty}
 
 \end{document} 

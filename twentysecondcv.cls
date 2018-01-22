@@ -155,7 +155,7 @@
 \newcommand\programming[1]{ 
 	\renewcommand{\programming}{
 		\begin{tikzpicture}
-        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
+        	%\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
 				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
@@ -164,8 +164,14 @@
 		\end{tikzpicture}
 	}
 }
-\newcommand\projects[1]{ 
-	\renewcommand{\projects}{
+\newcommand\computerskills[1]{ 
+	\renewcommand{\computerskills}{
+		{#1}
+	}
+}
+
+\newcommand\personalskills[1]{ 
+	\renewcommand{\personalskills}{
 		{#1}
 	}
 }
@@ -241,9 +247,9 @@
 
     %------------------------------------------------
     \vspace{4mm}
-    \profilesection{Skills}{4cm}
+    \profilesection{Compétences}{0cm}
     
-    {\large \textbf{Overview}}
+    {\large \textbf{Aperçu}}
 
 	\skills
         
@@ -251,14 +257,17 @@
         
         \vspace{3mm}
        
-	 {\large \textbf{Programming}} 
+	 {\large \textbf{Programmation}} 
 
 		 \programming
          
-        \vspace{4mm}
-        \profilesection{Projects}{3cm} 
+	 {\large \textbf{Informatique}} 
         
-        \projects
+        \computerskills
+        
+	 {\large \textbf{Personnelles}} 
+        
+        \personalskills
       
   \end{textblock}
 }
