@@ -247,9 +247,9 @@
 
     %------------------------------------------------
     \vspace{4mm}
-    \profilesection{Compétences}{0cm}
+    \profilesection{Skills}{0cm}
     
-    {\large \textbf{Aperçu}}
+    {\large \textbf{Summary}}
 
 	\skills
         
@@ -257,15 +257,15 @@
         
         \vspace{3mm}
        
-	 {\large \textbf{Programmation}} 
+	 {\large \textbf{Programming}} 
 
 		 \programming
          
-	 {\large \textbf{Informatique}} 
+	 {\large \textbf{Computer}} 
         
         \computerskills
         
-	 {\large \textbf{Personnelles}} 
+	 {\large \textbf{Personal}} 
         
         \personalskills
       
