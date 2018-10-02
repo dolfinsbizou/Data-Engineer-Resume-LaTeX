@@ -176,6 +176,12 @@
 	}
 }
 
+\newcommand\linguisticskills[1]{ 
+	\renewcommand{\linguisticskills}{
+		{#1}
+	}
+}
+
 %----------------------------------------------------------------------------------------
 %  SIDEBAR LAYOUT
 %----------------------------------------------------------------------------------------
@@ -268,6 +274,10 @@
 	 {\large \textbf{Personal}} 
         
         \personalskills
+      
+	 {\large \textbf{Languages}} 
+        
+        \linguisticskills
       
   \end{textblock}
 }
