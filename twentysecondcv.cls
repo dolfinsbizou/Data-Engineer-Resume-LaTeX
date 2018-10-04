@@ -205,6 +205,7 @@
     %------------------------------------------------
     
     {\Large\color{black!80}\cvjobtitle}
+    
 
     %------------------------------------------------
     
@@ -252,7 +253,7 @@
     \end{tabular}
 
     %------------------------------------------------
-    \vspace{4mm}
+    
     \profilesection{Skills}{0cm}
     
     {\large \textbf{Summary}}
@@ -300,12 +301,12 @@
 
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par\vspace{0.75\parskip}
 	{%
 		\LARGE\headingfont\color{headercolor}%
 		\@sectioncolor #1%
 	}
-  \par\vspace{\parskip}
+  \par\vspace{0.5\parskip}
 }
 
 \renewcommand{\subsection}[1]{
@@ -331,7 +332,7 @@
 }
 
 % \newcommand{\twentyitem}[5]{%
-% 	#1&\parbox[t]{0.83\textwidth}{%
+% 	\footnotesize{#1}&\parbox[t]{0.83\textwidth}{%
 % 		\textbf{#2}% 
 % 		\hfill%
 % 		{\footnotesize#3}\\%
@@ -341,15 +342,16 @@
 % }
 
 \newcommand{\twentyitem}[6]{%
-	#1&\parbox[t]{0.83\textwidth}{%
+	\footnotesize{#1}&\parbox[t]{0.83\textwidth}{%
 		\textbf{#3}% 
 		\hfill%
 		{\footnotesize#4}%
-        }\\%
-    #2&\parbox[t]{0.83\textwidth}{%
+        }\\\vspace{2mm}%
+    \footnotesize{#2}&\parbox[t]{0.83\textwidth}{%
 		\ifblank{#5}{}{#5 \\}
 		#6%
 	}\\
+
 }
 
 %----------------------------------------------------------------------------------------
