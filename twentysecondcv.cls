@@ -272,13 +272,13 @@
         
         \computerskills
         
-	 {\large \textbf{Personnelles}} 
-        
-        \personalskills
-      
 	 {\large \textbf{Langues}} 
         
         \linguisticskills
+      
+	 {\large \textbf{Personnelles}} 
+        
+        \personalskills
       
   \end{textblock}
 }
