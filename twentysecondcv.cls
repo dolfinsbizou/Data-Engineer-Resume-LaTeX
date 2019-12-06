@@ -13,7 +13,7 @@
 
 \usepackage{pstricks}
 
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \RequirePackage{tikz}
 \RequirePackage{xcolor}
 \RequirePackage[absolute,overlay]{textpos}
@@ -215,7 +215,7 @@
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
       		{$
               \begin{array}{l}
-              \hspace{4mm} \Huge \textnormal{\faMobile} 
+              \hspace{4mm} \Huge \textnormal{\faMobile*} 
               \end{array}
               $} 
             & \cvnumberphone\\}
@@ -230,7 +230,7 @@
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
-              \hspace{2.5mm} \huge \textnormal{\textcolor{yt}{\faEnvelopeO}}
+              \hspace{2.5mm} \huge \textnormal{\textcolor{yt}{\faEnvelope[regular]}}
               \end{array}
               $} 
             & \href{mailto:\cvmail}{\cvmail} \\}
