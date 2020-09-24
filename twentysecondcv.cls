@@ -240,7 +240,7 @@
               \begin{array}{l}
               \hspace{3mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedin}}
               \end{array}
-              $} & \href{https://www.linkedin.com\cvlinkedin}{\cvlinkedin} \\
+              $} & \href{https://www.linkedin.com/in/\cvlinkedin}{\cvlinkedin} \\
             }  
         \ifthenelse{\equal{\cvgithub}{}}{}{
             {$
